@@ -9,11 +9,13 @@ In this project, you'll be tackling three main things:
 var quotations =[
   {
   author: 'Peppa Pig' ,
-    quote:'Everyone loves jumping up and down in muddy puddles!'
+    quote:'Everyone loves jumping up and down in muddy puddles!',
+    Source: 'The Peppa Pig Series'
   },
   {
   author: 'King David Benjessi, ' ,
-    quote:'God is our refuge and strength, an ever-present help in trouble. Psalm 46:1-3'
+    quote:'God is our refuge and strength, an ever-present help in trouble.',
+    Source: 'NKJV Bible, Psalm 46:1-3'
 
   },
   {
@@ -46,15 +48,12 @@ var quotations =[
   },
   {
     author: 'Donald Trump' ,
-      quote:'No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.'
+      quote:'No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.',
+      Year: 'Nov 9, 2016'
   },
   {
     author: 'Britney Spears' ,
       quote:'The cool thing about being famous is traveling. I have always wanted to travel across seas, like to Canada and stuff.'
-  },
-  {
-    author: 'Adolf Hitler' ,
-      quote:'He alone, who owns the youth, gains the future.'
   },
   {
     author: 'Barack Obama' ,
