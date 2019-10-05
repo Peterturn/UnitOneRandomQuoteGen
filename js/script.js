@@ -28,14 +28,14 @@ var quotes =[
   author: 'Peppa Pig' ,
     quote:'Everyone loves jumping up and down in muddy puddles!',
     citation: 'The Peppa Pig Series',
-    number:1
+    tag:'television'
   },
   {
     //Quote 2
   author: 'King David Benjessi, ' ,
     quote:'God is our refuge and strength, an ever-present help in trouble.',
     citation: 'NKJV Bible, Psalm 46:1-3',
-    number:2
+    number:'religious'
 
 
   },
@@ -43,63 +43,63 @@ var quotes =[
     //Quote 3
     author: 'Steve Jobs' ,
       quote:'Design is not just what it looks like and feels like. Design is how it works. Innovation distinguishes between a leader and a follower. I want to put a ding in the universe.',
-      number:3
+      number:'business'
   },
   {
     //Quote 4
     author: 'Bill Gates' ,
       quote:'Success is a lousy teacher. It seduces smart people into thinking they can’t lose.',
-      number:4
+      number:'business'
   },
   {
     //Quote 5
     author: 'Mother Teresa' ,
       quote:'Spread love everywhere you go. Let no one ever come to you without leaving happier. Kind words can be short and easy to speak, but their echoes are truly endless.',
-      number:5
+      number:'religious'
   },
   {
     //Quote 6
     author: 'Bob Marley' ,
       quote:'The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.',
-      number:6
+      number:'celeberities'
   },
   {
     //Quote 7
     author: 'Jesus Christ' ,
       quote:'For what shall it profit a man, if he gain the whole world, and suffer the loss of his soul?',
-      number:7
+      number:'religious'
   },
   {
     //Quote 8
     author: 'David Hasselhoff' ,
       quote:'I am a cheesy over-the-top megalomaniac with a deep voice and the most amazing pecs.',
-      number:8
+      number:'celeberities'
   },
   {
     //Quote 9
     author: 'George W. Bush' ,
       quote:'Some folks look at me and see a certain swagger, which in Texas is called "walking."',
-      number:9
+      number:'politics'
   },
   {
     //Quote 10
     author: 'Donald Trump' ,
       quote:'No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.',
       year: 'Nov 9, 2016',
-      number:10
+      number:'politics'
 
   },
   {
     //Quote 11
     author: 'Britney Spears' ,
       quote:'The cool thing about being famous is traveling. I have always wanted to travel across seas, like to Canada and stuff.',
-      number:11
+      number:'celeberities'
   },
   {
     //Quote 12
     author: 'Barack Obama' ,
       quote: 'If you are walking down the right path and you are willing to keep walking, eventually you will make progress.',
-      number:12
+      number:'politics'
   }
 ];
 
@@ -140,9 +140,9 @@ console.log(getRandomQuote());
 ***/
 
 function printQuote(){
-  var randomQuote = getRandomQuote(quotes);
+  var randomQuote = getRandomQuote();
   var html= '';
-  html+='<h2>'+ quotes[i].quote + ' -'+ quotes[i].author +'<br>' + quotes[i].citation + ' ' + quotes[i].year + '</h2>';
+  html+='<h2>'+ randomQuote +'</h2>';
 }
 
 
