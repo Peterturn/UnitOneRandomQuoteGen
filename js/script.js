@@ -123,7 +123,7 @@ function printQuote(){
   var randomQuote = getRandomQuote();
 //Change background color with each new quote.
   prettyColors();
-  setInterval(printQuote, 20000);
+
   //empty var for the html message
   var html= '';
   //using 'class' and 'id' to use the needed CSS styles and placement.
@@ -148,7 +148,7 @@ function printQuote(){
 /// Dont Touch This Code!
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
-
+setInterval(printQuote, 20000);
 //color change function  'common code from TreeHouse workshop, MDN, and other code sources'
 function prettyColors(){
   red = Math.floor(Math.random() * 256 );
