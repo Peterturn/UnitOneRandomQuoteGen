@@ -127,7 +127,7 @@ function printQuote(){
   //empty var for the html message
   var html= '';
   //using 'class' and 'id' to use the needed CSS styles and placement.
-  html+='<p class="quote" id="quote">'+ randomQuote.quote +' </p><br>';
+  html+='<p class="quote">'+ randomQuote.quote +' </p><br>';
   html+='<p class="source" >'+ randomQuote.source + '  <br>';
 
 //'if' conditional statments for year, cittion, and tag when needed
