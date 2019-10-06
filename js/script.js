@@ -99,7 +99,7 @@ var quotes =[
   }
 ];
 //Log array to console to test 1st stage of code and check for errors.
-console.log(quotes);
+//console.log(quotes);
 //End of Part 1 coding project: console test positive
 
 
@@ -113,7 +113,7 @@ function getRandomQuote(){
   return grabQuote;}
 
 //Tests random quote generator in console
-console.log(getRandomQuote());
+//console.log(getRandomQuote());
 //End of part 2 coding project: console test positive
 
 
